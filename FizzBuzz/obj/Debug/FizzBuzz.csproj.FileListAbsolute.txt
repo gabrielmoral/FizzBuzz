@@ -1,0 +1,5 @@
+D:\Proyectos\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.csprojResolveAssemblyReference.cache
+D:\Proyectos\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.dll
+D:\Proyectos\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.pdb
+D:\Proyectos\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.dll
+D:\Proyectos\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.pdb
