@@ -5,3 +5,10 @@ D:\Proyectos\FizzBuzz\FizzBuzz.Tests\bin\Debug\FizzBuzz.dll
 D:\Proyectos\FizzBuzz\FizzBuzz.Tests\bin\Debug\FizzBuzz.pdb
 D:\Proyectos\FizzBuzz\FizzBuzz.Tests\obj\Debug\FizzBuzz.Tests.dll
 D:\Proyectos\FizzBuzz\FizzBuzz.Tests\obj\Debug\FizzBuzz.Tests.pdb
+d:\Profiles\gMoral\Desktop\FizzBuzz-master\FizzBuzz.Tests\bin\Debug\FizzBuzz.Tests.dll
+d:\Profiles\gMoral\Desktop\FizzBuzz-master\FizzBuzz.Tests\bin\Debug\FizzBuzz.Tests.pdb
+d:\Profiles\gMoral\Desktop\FizzBuzz-master\FizzBuzz.Tests\bin\Debug\FizzBuzz.dll
+d:\Profiles\gMoral\Desktop\FizzBuzz-master\FizzBuzz.Tests\bin\Debug\FizzBuzz.pdb
+d:\Profiles\gMoral\Desktop\FizzBuzz-master\FizzBuzz.Tests\obj\Debug\FizzBuzz.Tests.csprojResolveAssemblyReference.cache
+d:\Profiles\gMoral\Desktop\FizzBuzz-master\FizzBuzz.Tests\obj\Debug\FizzBuzz.Tests.dll
+d:\Profiles\gMoral\Desktop\FizzBuzz-master\FizzBuzz.Tests\obj\Debug\FizzBuzz.Tests.pdb

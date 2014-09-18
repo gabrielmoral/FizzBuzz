@@ -25,7 +25,6 @@ namespace FizzBuzz.Tests
             var resultList = fizzBuzz.GetResult(3);
 
             Assert.AreEqual(2, resultList.Count);
-           
         }
 
         [TestMethod]
@@ -59,6 +58,5 @@ namespace FizzBuzz.Tests
 
             Assert.AreEqual("fizzbuzz", resultList[0]);
         }
-       
     }
 }

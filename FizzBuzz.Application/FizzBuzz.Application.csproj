@@ -40,11 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AppSettingsRepository.cs" />
-    <Compile Include="FizzBuzzFileRepository.cs" />
+    <Compile Include="Repositories\AppSettingsRepository.cs" />
+    <Compile Include="Repositories\FizzBuzzFileRepository.cs" />
     <Compile Include="FizzBuzzFile.cs" />
-    <Compile Include="IAppSettingsRepository.cs" />
-    <Compile Include="IFizzBuzzFileRepository.cs" />
+    <Compile Include="Repositories\IAppSettingsRepository.cs" />
+    <Compile Include="Repositories\IFizzBuzzFileRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

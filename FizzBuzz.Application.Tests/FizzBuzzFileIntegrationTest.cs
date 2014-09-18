@@ -10,15 +10,18 @@ using System.Linq;
 namespace FizzBuzz.Application.Tests
 {
     [TestClass]
-    public class FizzBuzzFileConcurrencyTest
+    public class FizzBuzzFileIntegrationTest
     {
         private string path = @"c:\FizzBuzzResults.txt";
-        
+
+        private IFizzBuzzFileRepository fizzBuzzFileRepository; 
+
         private Mock<IAppSettingsRepository> appSettingsRepositoryMock;
 
         [TestInitialize]
         public void Init()
         {
+            fizzBuzzFileRepository = new FizzBuzzFileRepository(); 
             appSettingsRepositoryMock = new Mock<IAppSettingsRepository>();
 
             appSettingsRepositoryMock.Setup(x => x.GetLimitValue())
@@ -33,8 +36,6 @@ namespace FizzBuzz.Application.Tests
         [TestMethod]
         public void The_File_Is_Created_When_FizzBuzzFile_Is_Called()
         {
-            IFizzBuzzFileRepository fizzBuzzFileRepository = new FizzBuzzFileRepository();
-
             FizzBuzzFile fizzBuzzFile = new FizzBuzzFile(fizzBuzzFileRepository, appSettingsRepositoryMock.Object);
 
             fizzBuzzFile.SetResultsInFile(3);
@@ -45,8 +46,6 @@ namespace FizzBuzz.Application.Tests
         [TestMethod]
         public void File_Has_One_Line_When_FizzBuzzFile_Is_Called()
         {
-            IFizzBuzzFileRepository fizzBuzzFileRepository = new FizzBuzzFileRepository();
-
             FizzBuzzFile fizzBuzzFile = new FizzBuzzFile(fizzBuzzFileRepository, appSettingsRepositoryMock.Object);
 
             fizzBuzzFile.SetResultsInFile(3);

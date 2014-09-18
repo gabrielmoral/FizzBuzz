@@ -13,15 +13,12 @@ namespace FizzBuzz.Application
 
         public void Save(List<string> resultList)
         {
-
             using (var file = File.CreateText(@"c:\FizzBuzzResults.txt"))
             {
                 var fizzBuzzResult = string.Join(" ", resultList.ToArray());
                 var line = string.Format("{0} {1}", fizzBuzzResult, DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss.fff"));
                 file.WriteLine(line);
             }
-
-
         }
     }
 }
