@@ -1,9 +1,0 @@
-D:\Proyectos\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.dll
-D:\Proyectos\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.pdb
-D:\Proyectos\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.dll
-D:\Proyectos\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.pdb
-d:\Profiles\gMoral\Desktop\FizzBuzz-master\FizzBuzz\bin\Debug\FizzBuzz.dll
-d:\Profiles\gMoral\Desktop\FizzBuzz-master\FizzBuzz\bin\Debug\FizzBuzz.pdb
-d:\Profiles\gMoral\Desktop\FizzBuzz-master\FizzBuzz\obj\Debug\FizzBuzz.csprojResolveAssemblyReference.cache
-d:\Profiles\gMoral\Desktop\FizzBuzz-master\FizzBuzz\obj\Debug\FizzBuzz.dll
-d:\Profiles\gMoral\Desktop\FizzBuzz-master\FizzBuzz\obj\Debug\FizzBuzz.pdb
