@@ -11,7 +11,7 @@ namespace FizzBuzz.Application
 {
     public class FizzBuzzFile
     {
-        private FizzBuzz fizzBuzz;
+        private FizzBuzzer fizzBuzz;
 
         private IFizzBuzzFileRepository fizzBuzzFileRepository;
 
@@ -20,12 +20,12 @@ namespace FizzBuzz.Application
             int limit = appSettingsRepository.GetLimitValue();
 
             this.fizzBuzzFileRepository = fizzBuzzFileRepository;
-            this.fizzBuzz = new FizzBuzz(limit);
+            this.fizzBuzz = new FizzBuzzer(limit);
         }
 
         public void SetResultsInFile(int startNumber)
         {
-            var resultList = this.fizzBuzz.GetResult(startNumber);
+            var resultList = this.fizzBuzz.Build(startNumber);
 
             if (resultList.Any())
             {

@@ -10,9 +10,9 @@ namespace FizzBuzz.Tests
         [TestMethod]
         public void Number_Three_With_Limit_One_Fizz()
         {
-            FizzBuzz fizzBuzz = new FizzBuzz(1);
+            FizzBuzzer fizzBuzz = new FizzBuzzer(1);
 
-            var resultList = fizzBuzz.GetResult(3);
+            var resultList = fizzBuzz.Build(3);
 
             Assert.AreEqual("fizz", resultList[0]);
         }
@@ -20,9 +20,9 @@ namespace FizzBuzz.Tests
         [TestMethod]
         public void Result_List_Size_Equals_Limit()
         {
-            FizzBuzz fizzBuzz = new FizzBuzz(2);
+            FizzBuzzer fizzBuzz = new FizzBuzzer(2);
 
-            var resultList = fizzBuzz.GetResult(3);
+            var resultList = fizzBuzz.Build(3);
 
             Assert.AreEqual(2, resultList.Count);
         }
@@ -30,9 +30,9 @@ namespace FizzBuzz.Tests
         [TestMethod]
         public void Number_Three_With_Limit_Two_Fizz_Four()
         {
-            FizzBuzz fizzBuzz = new FizzBuzz(2);
+            FizzBuzzer fizzBuzz = new FizzBuzzer(2);
 
-            var resultList = fizzBuzz.GetResult(3);
+            var resultList = fizzBuzz.Build(3);
 
             Assert.AreEqual("fizz", resultList[0]);
             Assert.AreEqual("4", resultList[1]);
@@ -41,9 +41,9 @@ namespace FizzBuzz.Tests
         [TestMethod]
         public void Number_Five_With_Limit_Two_Fizz_Four()
         {
-            FizzBuzz fizzBuzz = new FizzBuzz(2);
+            FizzBuzzer fizzBuzz = new FizzBuzzer(2);
 
-            var resultList = fizzBuzz.GetResult(10);
+            var resultList = fizzBuzz.Build(10);
 
             Assert.AreEqual("buzz", resultList[0]);
             Assert.AreEqual("11", resultList[1]);
@@ -52,9 +52,9 @@ namespace FizzBuzz.Tests
         [TestMethod]
         public void Number_Fifteen_With_Limit_One_Fizzbuzz()
         {
-            FizzBuzz fizzBuzz = new FizzBuzz(1);
+            FizzBuzzer fizzBuzz = new FizzBuzzer(1);
 
-            var resultList = fizzBuzz.GetResult(15);
+            var resultList = fizzBuzz.Build(15);
 
             Assert.AreEqual("fizzbuzz", resultList[0]);
         }
