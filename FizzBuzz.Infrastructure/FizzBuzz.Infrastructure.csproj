@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4016CB41-5804-491F-B5A3-8EFBC427A9E0}</ProjectGuid>
+    <ProjectGuid>{73895D1E-2EE0-48D5-B7BC-0B226FD200A8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FizzBuzz.Application</RootNamespace>
-    <AssemblyName>FizzBuzz.Application</AssemblyName>
+    <RootNamespace>FizzBuzz.Infrastructure</RootNamespace>
+    <AssemblyName>FizzBuzz.Infrastructure</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -39,18 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FizzBuzzFile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\FizzBuzz.Infrastructure\FizzBuzz.Infrastructure.csproj">
-      <Project>{73895d1e-2ee0-48d5-b7bc-0b226fd200a8}</Project>
-      <Name>FizzBuzz.Infrastructure</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\FizzBuzz.Domain\FizzBuzz.Domain.csproj">
-      <Project>{b3ccbae7-4957-4977-8aac-b98d70a7248b}</Project>
-      <Name>FizzBuzz.Domain</Name>
-    </ProjectReference>
+    <Compile Include="Repositories\AppSettingsRepository.cs" />
+    <Compile Include="Repositories\FizzBuzzFileRepository.cs" />
+    <Compile Include="Repositories\IAppSettingsRepository.cs" />
+    <Compile Include="Repositories\IFizzBuzzFileRepository.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

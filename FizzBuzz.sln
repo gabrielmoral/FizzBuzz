@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz.Tests", "FizzBuzz.Tests\FizzBuzz.Tests.csproj", "{C1E4EDA9-3950-4AEA-B353-927E500301E3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz.Domain.Tests", "FizzBuzz.Domain.Tests\FizzBuzz.Domain.Tests.csproj", "{C1E4EDA9-3950-4AEA-B353-927E500301E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{B3CCBAE7-4957-4977-8AAC-B98D70A7248B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz.Domain", "FizzBuzz.Domain\FizzBuzz.Domain.csproj", "{B3CCBAE7-4957-4977-8AAC-B98D70A7248B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz.Application.Tests", "FizzBuzz.Application.Tests\FizzBuzz.Application.Tests.csproj", "{7E725E02-E3EB-4C6F-B5B9-92CB9656816E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz.Application", "FizzBuzz.Application\FizzBuzz.Application.csproj", "{4016CB41-5804-491F-B5A3-8EFBC427A9E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz.Infrastructure", "FizzBuzz.Infrastructure\FizzBuzz.Infrastructure.csproj", "{73895D1E-2EE0-48D5-B7BC-0B226FD200A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{4016CB41-5804-491F-B5A3-8EFBC427A9E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4016CB41-5804-491F-B5A3-8EFBC427A9E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4016CB41-5804-491F-B5A3-8EFBC427A9E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73895D1E-2EE0-48D5-B7BC-0B226FD200A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73895D1E-2EE0-48D5-B7BC-0B226FD200A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73895D1E-2EE0-48D5-B7BC-0B226FD200A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73895D1E-2EE0-48D5-B7BC-0B226FD200A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

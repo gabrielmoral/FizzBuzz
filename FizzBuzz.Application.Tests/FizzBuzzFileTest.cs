@@ -4,6 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using FizzBuzz.Application;
 using Moq;
 using System.Collections.Generic;
+using FizzBuzz.Infrastructure;
 
 namespace FizzBuzz.Application.Tests
 {

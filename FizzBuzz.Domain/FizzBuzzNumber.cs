@@ -11,17 +11,20 @@ namespace FizzBuzz
         private const string BUZZ = "buzz";
         private const string FIZZBUZZ = "fizzbuzz";
 
+        private const int THREE = 3;
+        private const int FIVE = 5;
+        
         public static string Convert(int number)
         {
-            if (IsNumberDivisibleByThreeAndFive(number))
+            if (IsFizzBuzz(number))
             {
                 return FIZZBUZZ;
             }
-            else if (IsNumberDivisibleByThree(number))
+            else if (IsFizz(number))
             {
                 return FIZZ;
             }
-            else if (IsNumberDivisibleByFive(number))
+            else if (IsBuzz(number))
             {
                 return BUZZ;
             }
@@ -31,19 +34,24 @@ namespace FizzBuzz
             }
         }
 
-        private static bool IsNumberDivisibleByThreeAndFive(int number)
+        private static bool IsFizzBuzz(int number)
         {
-            return IsNumberDivisibleByThree(number) && IsNumberDivisibleByFive(number);
+            return IsNumberDivisibleBy(number, THREE) && IsNumberDivisibleBy(number, FIVE);
         }
 
-        private static bool IsNumberDivisibleByThree(int number)
+        private static bool IsFizz(int number)
         {
-            return number % 3 == 0;
+            return IsNumberDivisibleBy(number, THREE);
         }
 
-        private static bool IsNumberDivisibleByFive(int number)
+        private static bool IsBuzz(int number)
         {
-            return number % 5 == 0;
+            return IsNumberDivisibleBy(number, FIVE);
+        }
+
+        private static bool IsNumberDivisibleBy(int number, int divisor)
+        {
+            return number % divisor == 0;
         }
     }
 }

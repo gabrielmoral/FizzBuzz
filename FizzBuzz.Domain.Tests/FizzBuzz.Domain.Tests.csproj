@@ -54,9 +54,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FizzBuzz\FizzBuzz.csproj">
+    <ProjectReference Include="..\FizzBuzz.Domain\FizzBuzz.Domain.csproj">
       <Project>{b3ccbae7-4957-4977-8aac-b98d70a7248b}</Project>
-      <Name>FizzBuzz</Name>
+      <Name>FizzBuzz.Domain</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

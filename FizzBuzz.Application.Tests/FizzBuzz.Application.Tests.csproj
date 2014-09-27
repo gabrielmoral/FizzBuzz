@@ -65,9 +65,9 @@
       <Project>{4016cb41-5804-491f-b5a3-8efbc427a9e0}</Project>
       <Name>FizzBuzz.Application</Name>
     </ProjectReference>
-    <ProjectReference Include="..\FizzBuzz\FizzBuzz.csproj">
-      <Project>{b3ccbae7-4957-4977-8aac-b98d70a7248b}</Project>
-      <Name>FizzBuzz</Name>
+    <ProjectReference Include="..\FizzBuzz.Infrastructure\FizzBuzz.Infrastructure.csproj">
+      <Project>{73895d1e-2ee0-48d5-b7bc-0b226fd200a8}</Project>
+      <Name>FizzBuzz.Infrastructure</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 
-namespace FizzBuzz.Application
+namespace FizzBuzz.Infrastructure
 {
     public class FizzBuzzFileRepository : IFizzBuzzFileRepository
     {

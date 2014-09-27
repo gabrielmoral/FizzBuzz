@@ -6,6 +6,7 @@ using Moq;
 using System.Collections.Generic;
 using System.Threading;
 using System.Linq;
+using FizzBuzz.Infrastructure;
 
 namespace FizzBuzz.Application.Tests
 {

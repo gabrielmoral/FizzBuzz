@@ -4,7 +4,7 @@ using System.Configuration;
 using System.Linq;
 using System.Text;
 
-namespace FizzBuzz.Application
+namespace FizzBuzz.Infrastructure
 {
     public class AppSettingsRepository : IAppSettingsRepository
     {
